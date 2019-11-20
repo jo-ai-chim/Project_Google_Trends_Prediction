@@ -30,13 +30,14 @@ The projects contains 3 files beside this readme.
 
 ## Results<a name="results"></a>
 
-The analyses in the notebook show that it is possible to make quite good predictions with google trends data. In our example it is surprisingly not so important how far in the future the prediction should be made.
+The analyses in the notebook leads to the conclusion that google trends data is a valuable input to set up good models for having a look in the future. In our example it is surprisingly not so important how far in the future the prediction should be made.
 
 Since this is only a first analysis to check if predictions with google trend data even make sense, I want to note that there are a lot of possibilities to improve the predictions even more. 
 
-- Until now it was not analyzed how relevant the chosen search terms are. So a next step could be to have a deeper look at the search terms and optimize the selection of them.
 - Different types of models can be checked to see which type deliveres the best prediction.
+- Other data sources and input parameter than google trends data (like the share price itself) should be integrated in the model.
 - The prediction complexity could be reduced by transforming the value we want to predict to a discrete value (like trying only to predict if the stock price stayed the same or de-/increased only a little or a lot. 
+- Until now it was not analyzed how relevant the chosen search terms are. So a next step could be to have a deeper look at the search terms and optimize the selection of them.
 - The model could be expanded to make based on google trend data of one day as input a prediction for every of the next 30 days instead of only predicting one value in the future.
 
 ## Licensing, Authors, Acknowledgements<a name="licensing"></a>
