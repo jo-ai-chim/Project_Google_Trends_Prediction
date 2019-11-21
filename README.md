@@ -40,6 +40,8 @@ Since this is only a first analysis to check if predictions with google trend da
 - Until now it was not analysed how relevant the search terms we chose are. So a next step could be to have a deeper look at the search terms and optimize the selection of them.
 - The model could be expanded to make a prediction for every of the next 30 days instead of only predicting one value in the future.
 
+**The main findings of the code can be found at the post available [here](https://jo-ai-chim.github.io/Google_Trends_Predictions/).**
+
 ## Licensing, Authors, Acknowledgements<a name="licensing"></a>
 
 The following sources I want to give credit to for providing the data
